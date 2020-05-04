@@ -1,0 +1,5 @@
+{
+    "appName": "cheung-may1",
+    "environment": "development",
+    "backendURL": "http://localhost:8080"
+}

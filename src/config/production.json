@@ -1,0 +1,5 @@
+{
+    "appName": "cheung-may1",
+    "environment": "production",
+    "backendURL": "https://api.domain.com"
+}
