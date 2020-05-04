@@ -192,7 +192,7 @@ workflows:
             requires:
               - build
               - deploy_staging
-            bucket: domain.com
+            bucket: cheung-may1-ui.commitzero.com
             filters:
               branches:
                 only:  # only branches matching the below regex filters will run
