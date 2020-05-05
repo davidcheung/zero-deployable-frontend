@@ -207,18 +207,18 @@ workflows:
               - build_staging
             bucket: cheung-may1-ui.commitzero.com
             # Depending on your development flow you may want to also only deploy to staging on master.
-            # filters:
-            #   branches:
-            #     only:  # only branches matching the below regex filters will run
-            #       - /^master$/
-
-        - deploy:
-            name: deploy_production
-            requires:
-              - unit_test
-              - build_production
-            bucket: cheung-may1-ui.commitzero.com
             filters:
               branches:
                 only:  # only branches matching the below regex filters will run
                   - /^master$/
+
+        # - deploy:
+        #     name: deploy_production
+        #     requires:
+        #       - unit_test
+        #       - build_production
+        #     bucket: cheung-may1-ui.commitzero.com
+        #     filters:
+        #       branches:
+        #         only:  # only branches matching the below regex filters will run
+        #           - /^master$/
