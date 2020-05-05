@@ -1,5 +1,5 @@
 {
     "appName": "cheung-may1",
-    "environment": "production",
+    "environment": "staging",
     "backendURL": "https://cheung-may1-api.commitzero.com"
 }
